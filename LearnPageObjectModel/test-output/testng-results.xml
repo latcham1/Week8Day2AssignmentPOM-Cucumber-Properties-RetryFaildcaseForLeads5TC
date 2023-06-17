@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-17T09:38:20 GMT-04:00" name="Default suite" finished-at="2023-06-17T09:39:12 GMT-04:00" duration-ms="51800">
+    <groups>
+    </groups>
+    <test started-at="2023-06-17T09:38:20 GMT-04:00" name="Default test" finished-at="2023-06-17T09:39:12 GMT-04:00" duration-ms="51800">
+      <class name="testcases.Loginverificaiton">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:testcases.Loginverificaiton@4c1909a3]" started-at="2023-06-17T09:38:20 GMT-04:00" name="precondition" finished-at="2023-06-17T09:39:11 GMT-04:00" duration-ms="50490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runLogin()[pri:0, instance:testcases.Loginverificaiton@4c1909a3]" started-at="2023-06-17T09:39:11 GMT-04:00" name="runLogin" finished-at="2023-06-17T09:39:12 GMT-04:00" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="precodition()[pri:0, instance:testcases.Loginverificaiton@4c1909a3]" started-at="2023-06-17T09:39:12 GMT-04:00" name="precodition" finished-at="2023-06-17T09:39:12 GMT-04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precodition -->
+      </class> <!-- testcases.Loginverificaiton -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
