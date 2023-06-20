@@ -1,15 +1,31 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import base.ProjectSpecificMethods;
 
 public class MyLeadsPage extends ProjectSpecificMethods
-{
-	public CreateLeadPage clickLeadsLink() 
+{ public MyLeadsPage(ChromeDriver driver) {
+	// TODO Auto-generated constructor stub
+	this.driver=driver;
+}
+	public CreateLeadPage createLeadFromLeftMenu() 
 	{
 		// TODO Auto-generated method stub
-		driver.findElement(By.linkText("Leads")).click();
-		return new CreateLeadPage();
+		driver.findElement(By.linkText("Create Lead")).click();
+		return new CreateLeadPage(driver);
 	}
+	public FindLeadsPage findLeadsFromLeftMenu()
+	{
+	// TODO Auto-generated method stub
+	driver.findElement(By.linkText("Find Leads")).click();
+	return new FindLeadsPage(driver);
+}
+	public MergeLeadsPage mergeLeadsButtonFromLeftMenu()
+	{
+	// TODO Auto-generated method stub
+		driver.findElement(By.linkText("Merge Leads")).click();
+	return new MergeLeadsPage(driver);
+}
 }

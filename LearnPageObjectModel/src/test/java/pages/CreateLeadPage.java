@@ -1,31 +1,38 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import base.ProjectSpecificMethods;
 
 public class CreateLeadPage extends ProjectSpecificMethods{
-	public CreateLeadPage enterCname() {
+	public CreateLeadPage(ChromeDriver driver) {
+		
+		System.out.println("driver"+driver);
+		// TODO Auto-generated constructor stub
+		this.driver=driver;
+	}
+	public CreateLeadPage enterCname(String cName) {
 		// TODO Auto-generated method stub
-		driver.findElement(By.id("createLeadForm_companyName")).sendKeys("RaghavHari");
+		driver.findElement(By.id("createLeadForm_companyName")).sendKeys(cName);
 		return this;
 
 	}
 
-	private CreateLeadPage enterFNAME() {
+	public CreateLeadPage enterFNAME(String fName) {
 		// TODO Auto-generated method stub
-		driver.findElement(By.id("createLeadForm_firstName")).sendKeys("latcham1");
+		driver.findElement(By.id("createLeadForm_firstName")).sendKeys(fName);
 		return this;
 	}
-	public CreateLeadPage enterpword() {
+	public CreateLeadPage enterlastName(String lName) {
 		// TODO Auto-generated method stub
-		driver.findElement(By.id("createLeadForm_lastName")).sendKeys("appasamy1");
+		driver.findElement(By.id("createLeadForm_lastName")).sendKeys(lName);
 		return this;
 	}
-	private ViewLeadsPage clickSubmitButton() {
+	public ViewLeadsPage clickSubmitButton() {
 		// TODO Auto-generated method stub
 		driver.findElement(By.name("submitButton")).click();
-		return new ViewLeadsPage();
+		return new ViewLeadsPage(driver);
 		
 	}
 }

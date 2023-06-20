@@ -1,25 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-17T09:38:20 GMT-04:00" name="Default suite" finished-at="2023-06-17T09:39:12 GMT-04:00" duration-ms="51800">
+  <suite started-at="2023-06-20T17:32:38 GMT-04:00" name="Suite" finished-at="2023-06-20T17:33:47 GMT-04:00" duration-ms="68245">
     <groups>
     </groups>
-    <test started-at="2023-06-17T09:38:20 GMT-04:00" name="Default test" finished-at="2023-06-17T09:39:12 GMT-04:00" duration-ms="51800">
-      <class name="testcases.Loginverificaiton">
-        <test-method is-config="true" signature="precondition()[pri:0, instance:testcases.Loginverificaiton@4c1909a3]" started-at="2023-06-17T09:38:20 GMT-04:00" name="precondition" finished-at="2023-06-17T09:39:11 GMT-04:00" duration-ms="50490" status="PASS">
+    <test started-at="2023-06-20T17:32:38 GMT-04:00" name="Test" finished-at="2023-06-20T17:33:47 GMT-04:00" duration-ms="68245">
+      <class name="testcases.T004MergeLeadVerificaiton">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.T004MergeLeadVerificaiton@6892b3b6]" started-at="2023-06-20T17:32:38 GMT-04:00" name="setValues" finished-at="2023-06-20T17:32:38 GMT-04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:testcases.T004MergeLeadVerificaiton@6892b3b6]" started-at="2023-06-20T17:32:40 GMT-04:00" name="precondition" finished-at="2023-06-20T17:32:55 GMT-04:00" duration-ms="15521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="runLogin()[pri:0, instance:testcases.Loginverificaiton@4c1909a3]" started-at="2023-06-17T09:39:11 GMT-04:00" name="runLogin" finished-at="2023-06-17T09:39:12 GMT-04:00" duration-ms="1278" status="PASS">
+        <test-method signature="runEdidLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.T004MergeLeadVerificaiton@6892b3b6]" started-at="2023-06-20T17:32:55 GMT-04:00" name="runEdidLead" data-provider="sendData" finished-at="2023-06-20T17:33:40 GMT-04:00" duration-ms="44608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RaghavHari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latcham]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[appasamy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEdidLead -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:testcases.T004MergeLeadVerificaiton@6892b3b6]" started-at="2023-06-20T17:33:40 GMT-04:00" name="postcodition" finished-at="2023-06-20T17:33:40 GMT-04:00" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+      </class> <!-- testcases.T004MergeLeadVerificaiton -->
+      <class name="testcases.T005DuplicateLeadVerification">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.T005DuplicateLeadVerification@6e6f2380]" started-at="2023-06-20T17:32:38 GMT-04:00" name="setValues" finished-at="2023-06-20T17:32:38 GMT-04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:testcases.T005DuplicateLeadVerification@6e6f2380]" started-at="2023-06-20T17:32:40 GMT-04:00" name="precondition" finished-at="2023-06-20T17:32:57 GMT-04:00" duration-ms="16921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runDuplicateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.T005DuplicateLeadVerification@6e6f2380]" started-at="2023-06-20T17:32:57 GMT-04:00" name="runDuplicateLead" data-provider="sendData" finished-at="2023-06-20T17:33:44 GMT-04:00" duration-ms="47717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RaghavHari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latcham]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[appasamy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDuplicateLead -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:testcases.T005DuplicateLeadVerification@6e6f2380]" started-at="2023-06-20T17:33:44 GMT-04:00" name="postcodition" finished-at="2023-06-20T17:33:47 GMT-04:00" duration-ms="2325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+      </class> <!-- testcases.T005DuplicateLeadVerification -->
+      <class name="testcases.T001Loginverificaiton">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:testcases.T001Loginverificaiton@1ed6388a]" started-at="2023-06-20T17:32:38 GMT-04:00" name="precondition" finished-at="2023-06-20T17:32:55 GMT-04:00" duration-ms="16747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runLogin()[pri:0, instance:testcases.T001Loginverificaiton@1ed6388a]" started-at="2023-06-20T17:32:55 GMT-04:00" name="runLogin" finished-at="2023-06-20T17:32:57 GMT-04:00" duration-ms="2233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runLogin -->
-        <test-method is-config="true" signature="precodition()[pri:0, instance:testcases.Loginverificaiton@4c1909a3]" started-at="2023-06-17T09:39:12 GMT-04:00" name="precodition" finished-at="2023-06-17T09:39:12 GMT-04:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:testcases.T001Loginverificaiton@1ed6388a]" started-at="2023-06-20T17:32:57 GMT-04:00" name="postcodition" finished-at="2023-06-20T17:32:59 GMT-04:00" duration-ms="1861" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- precodition -->
-      </class> <!-- testcases.Loginverificaiton -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- postcodition -->
+      </class> <!-- testcases.T001Loginverificaiton -->
+      <class name="testcases.T003EditLeadVerificaiton">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.T003EditLeadVerificaiton@11392934]" started-at="2023-06-20T17:32:38 GMT-04:00" name="setValues" finished-at="2023-06-20T17:32:38 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:testcases.T003EditLeadVerificaiton@11392934]" started-at="2023-06-20T17:32:40 GMT-04:00" name="precondition" finished-at="2023-06-20T17:32:55 GMT-04:00" duration-ms="15548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runEdidLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.T003EditLeadVerificaiton@11392934]" started-at="2023-06-20T17:32:55 GMT-04:00" name="runEdidLead" data-provider="sendData" finished-at="2023-06-20T17:33:25 GMT-04:00" duration-ms="29444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RaghavHari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latcham]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[appasamy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEdidLead -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:testcases.T003EditLeadVerificaiton@11392934]" started-at="2023-06-20T17:33:25 GMT-04:00" name="postcodition" finished-at="2023-06-20T17:33:26 GMT-04:00" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+      </class> <!-- testcases.T003EditLeadVerificaiton -->
+      <class name="testcases.T006DeleteLeadVerification">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.T006DeleteLeadVerification@76a4ebf2]" started-at="2023-06-20T17:32:38 GMT-04:00" name="setValues" finished-at="2023-06-20T17:32:38 GMT-04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:testcases.T006DeleteLeadVerification@76a4ebf2]" started-at="2023-06-20T17:32:40 GMT-04:00" name="precondition" finished-at="2023-06-20T17:32:55 GMT-04:00" duration-ms="15268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runDeleteLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.T006DeleteLeadVerification@76a4ebf2]" started-at="2023-06-20T17:32:55 GMT-04:00" name="runDeleteLead" data-provider="sendData" finished-at="2023-06-20T17:33:22 GMT-04:00" duration-ms="26974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RaghavHari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latcham]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[appasamy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDeleteLead -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:testcases.T006DeleteLeadVerification@76a4ebf2]" started-at="2023-06-20T17:33:22 GMT-04:00" name="postcodition" finished-at="2023-06-20T17:33:24 GMT-04:00" duration-ms="2260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+      </class> <!-- testcases.T006DeleteLeadVerification -->
+      <class name="testcases.T002CreateLeadVerificaiton">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.T002CreateLeadVerificaiton@2a265ea9]" started-at="2023-06-20T17:32:38 GMT-04:00" name="setValues" finished-at="2023-06-20T17:32:38 GMT-04:00" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:testcases.T002CreateLeadVerificaiton@2a265ea9]" started-at="2023-06-20T17:32:40 GMT-04:00" name="precondition" finished-at="2023-06-20T17:32:55 GMT-04:00" duration-ms="15606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.T002CreateLeadVerificaiton@2a265ea9]" started-at="2023-06-20T17:32:55 GMT-04:00" name="runCreateLead" data-provider="sendData" finished-at="2023-06-20T17:33:34 GMT-04:00" duration-ms="39285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RaghavHari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latcham]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[appasamy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:testcases.T002CreateLeadVerificaiton@2a265ea9]" started-at="2023-06-20T17:33:34 GMT-04:00" name="postcodition" finished-at="2023-06-20T17:33:35 GMT-04:00" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+      </class> <!-- testcases.T002CreateLeadVerificaiton -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

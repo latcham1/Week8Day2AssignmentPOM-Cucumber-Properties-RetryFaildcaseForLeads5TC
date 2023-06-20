@@ -1,29 +1,47 @@
 package base;
 
+import java.io.IOException;
 import java.time.Duration;
+import utils.ReadExcel;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+
+
+
 
 public class ProjectSpecificMethods 
 {
-	public static ChromeDriver driver;
-	@BeforeMethod
+	public  ChromeDriver driver;
+	public String excelFileName;
+	public String leadID;
+
+
+@BeforeMethod
 	public void precondition()
 	{
 		//	options = new ChromeOptions();
 		//	options.addArguments("--remote-allow-origins=*");
 		driver= new ChromeDriver();
+		
+	
+		System.out.println("precondition driver"+driver);
 		driver.get("http://leaftaps.com/opentaps/control/main");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(100));
+		
 	}
 	@AfterMethod
-	public void precodition() throws InterruptedException
+	public void postcodition() throws InterruptedException
 	{
-//		driver.quit();
+		driver.quit();
+	}
+	@DataProvider (indices= 0)
+	public String[][] sendData() throws IOException {
+		return ReadExcel.readExcel(excelFileName);
 	}
 }
 
