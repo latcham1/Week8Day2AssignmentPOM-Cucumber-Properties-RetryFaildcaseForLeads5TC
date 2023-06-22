@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-21T19:52:25 GMT-04:00" name="LeadSuite" finished-at="2023-06-21T19:54:15 GMT-04:00" duration-ms="110027">
+    <groups>
+    </groups>
+    <test started-at="2023-06-21T19:52:25 GMT-04:00" name="Edge Browser" finished-at="2023-06-21T19:53:11 GMT-04:00" duration-ms="46617">
+      <class name="testcases.T003EditLeadVerificaiton">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.T003EditLeadVerificaiton@792b749c]" started-at="2023-06-21T19:52:25 GMT-04:00" name="setValues" finished-at="2023-06-21T19:52:25 GMT-04:00" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.T003EditLeadVerificaiton@792b749c]" started-at="2023-06-21T19:52:25 GMT-04:00" name="precondition" finished-at="2023-06-21T19:52:52 GMT-04:00" duration-ms="26726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runEdidLead(java.lang.String,java.lang.String)[pri:0, instance:testcases.T003EditLeadVerificaiton@792b749c]" started-at="2023-06-21T19:52:52 GMT-04:00" name="runEdidLead" data-provider="sendData" finished-at="2023-06-21T19:53:10 GMT-04:00" duration-ms="17835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RaghavHari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEdidLead -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:testcases.T003EditLeadVerificaiton@792b749c]" started-at="2023-06-21T19:53:10 GMT-04:00" name="postcodition" finished-at="2023-06-21T19:53:11 GMT-04:00" duration-ms="1224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+      </class> <!-- testcases.T003EditLeadVerificaiton -->
+    </test> <!-- Edge Browser -->
+    <test started-at="2023-06-21T19:52:25 GMT-04:00" name="Chrome Browser" finished-at="2023-06-21T19:53:24 GMT-04:00" duration-ms="59435">
+      <class name="testcases.T006DeleteLeadVerification">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.T006DeleteLeadVerification@2d901eb0]" started-at="2023-06-21T19:52:25 GMT-04:00" name="setValues" finished-at="2023-06-21T19:52:25 GMT-04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.T006DeleteLeadVerification@2d901eb0]" started-at="2023-06-21T19:52:58 GMT-04:00" name="precondition" finished-at="2023-06-21T19:53:17 GMT-04:00" duration-ms="19334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runDeleteLead(java.lang.String)[pri:0, instance:testcases.T006DeleteLeadVerification@2d901eb0]" started-at="2023-06-21T19:53:17 GMT-04:00" name="runDeleteLead" data-provider="sendData" finished-at="2023-06-21T19:53:23 GMT-04:00" duration-ms="6399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDeleteLead -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:testcases.T006DeleteLeadVerification@2d901eb0]" started-at="2023-06-21T19:53:23 GMT-04:00" name="postcodition" finished-at="2023-06-21T19:53:24 GMT-04:00" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+      </class> <!-- testcases.T006DeleteLeadVerification -->
+      <class name="testcases.T002CreateLeadVerificaiton">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.T002CreateLeadVerificaiton@15043a2f]" started-at="2023-06-21T19:52:25 GMT-04:00" name="setValues" finished-at="2023-06-21T19:52:25 GMT-04:00" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.T002CreateLeadVerificaiton@15043a2f]" started-at="2023-06-21T19:52:25 GMT-04:00" name="precondition" finished-at="2023-06-21T19:52:45 GMT-04:00" duration-ms="19676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.T002CreateLeadVerificaiton@15043a2f]" started-at="2023-06-21T19:52:45 GMT-04:00" name="runCreateLead" data-provider="sendData" finished-at="2023-06-21T19:52:57 GMT-04:00" duration-ms="11778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RaghavHari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latcham]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appasamy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:testcases.T002CreateLeadVerificaiton@15043a2f]" started-at="2023-06-21T19:52:57 GMT-04:00" name="postcodition" finished-at="2023-06-21T19:52:58 GMT-04:00" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+      </class> <!-- testcases.T002CreateLeadVerificaiton -->
+    </test> <!-- Chrome Browser -->
+    <test started-at="2023-06-21T19:53:11 GMT-04:00" name="Firefox Browser" finished-at="2023-06-21T19:54:13 GMT-04:00" duration-ms="61287">
+      <class name="testcases.T004MergeLeadVerificaiton">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.T004MergeLeadVerificaiton@302c971f]" started-at="2023-06-21T19:53:11 GMT-04:00" name="setValues" finished-at="2023-06-21T19:53:11 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.T004MergeLeadVerificaiton@302c971f]" started-at="2023-06-21T19:53:11 GMT-04:00" name="precondition" finished-at="2023-06-21T19:53:58 GMT-04:00" duration-ms="46099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runEdidLead(java.lang.String,java.lang.String)[pri:0, instance:testcases.T004MergeLeadVerificaiton@302c971f]" started-at="2023-06-21T19:53:58 GMT-04:00" name="runEdidLead" data-provider="sendData" finished-at="2023-06-21T19:54:08 GMT-04:00" duration-ms="10751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[g]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[h]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEdidLead -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:testcases.T004MergeLeadVerificaiton@302c971f]" started-at="2023-06-21T19:54:08 GMT-04:00" name="postcodition" finished-at="2023-06-21T19:54:13 GMT-04:00" duration-ms="4348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+      </class> <!-- testcases.T004MergeLeadVerificaiton -->
+    </test> <!-- Firefox Browser -->
+    <test started-at="2023-06-21T19:53:24 GMT-04:00" name="safari Browser" finished-at="2023-06-21T19:54:15 GMT-04:00" duration-ms="50578">
+      <class name="testcases.T005DuplicateLeadVerification">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.T005DuplicateLeadVerification@548a24a]" started-at="2023-06-21T19:53:24 GMT-04:00" name="setValues" finished-at="2023-06-21T19:53:24 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.T005DuplicateLeadVerification@548a24a]" started-at="2023-06-21T19:53:24 GMT-04:00" name="precondition" finished-at="2023-06-21T19:53:48 GMT-04:00" duration-ms="23958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runDuplicateLead(java.lang.String)[pri:0, instance:testcases.T005DuplicateLeadVerification@548a24a]" started-at="2023-06-21T19:53:48 GMT-04:00" name="runDuplicateLead" data-provider="sendData" finished-at="2023-06-21T19:54:12 GMT-04:00" duration-ms="23688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDuplicateLead -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:testcases.T005DuplicateLeadVerification@548a24a]" started-at="2023-06-21T19:54:12 GMT-04:00" name="postcodition" finished-at="2023-06-21T19:54:15 GMT-04:00" duration-ms="2757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+      </class> <!-- testcases.T005DuplicateLeadVerification -->
+    </test> <!-- safari Browser -->
+  </suite> <!-- LeadSuite -->
+</testng-results>
