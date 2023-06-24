@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-24T02:18:21 GMT-04:00" name="LeadSuite" finished-at="2023-06-24T02:23:59 GMT-04:00" duration-ms="338732">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@353352b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunnerForFrench@c430e6c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-06-24T02:18:21 GMT-04:00" name="English Language" finished-at="2023-06-24T02:21:46 GMT-04:00" duration-ms="205881">
+      <class name="runner.CucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:18:21 GMT-04:00" name="setUpClass" finished-at="2023-06-24T02:18:22 GMT-04:00" duration-ms="1177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@250a946]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:18:22 GMT-04:00" name="precondition" finished-at="2023-06-24T02:18:48 GMT-04:00" duration-ms="26249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[en]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:18:48 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-24T02:19:05 GMT-04:00" duration-ms="16911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Run Create Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Lead Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:19:05 GMT-04:00" name="postcodition" finished-at="2023-06-24T02:19:06 GMT-04:00" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:19:06 GMT-04:00" name="precondition" finished-at="2023-06-24T02:19:25 GMT-04:00" duration-ms="19193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[en]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:19:25 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-24T02:19:49 GMT-04:00" duration-ms="23649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Run Edit Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Edit/Update Lead Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:19:49 GMT-04:00" name="postcodition" finished-at="2023-06-24T02:19:49 GMT-04:00" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:19:49 GMT-04:00" name="precondition" finished-at="2023-06-24T02:20:04 GMT-04:00" duration-ms="14386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[en]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:20:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-24T02:20:32 GMT-04:00" duration-ms="28295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Run Merge Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Merge Lead Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:20:32 GMT-04:00" name="postcodition" finished-at="2023-06-24T02:20:34 GMT-04:00" duration-ms="2635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:20:34 GMT-04:00" name="precondition" finished-at="2023-06-24T02:20:56 GMT-04:00" duration-ms="21540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[en]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:20:56 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-24T02:21:18 GMT-04:00" duration-ms="21856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Run Duplicate Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Duplicate Lead Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:21:18 GMT-04:00" name="postcodition" finished-at="2023-06-24T02:21:18 GMT-04:00" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:21:18 GMT-04:00" name="precondition" finished-at="2023-06-24T02:21:34 GMT-04:00" duration-ms="16267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[en]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:21:34 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-24T02:21:43 GMT-04:00" duration-ms="8321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Run Delete Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete Lead Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:21:43 GMT-04:00" name="postcodition" finished-at="2023-06-24T02:21:43 GMT-04:00" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.CucumberRunner@353352b6]" started-at="2023-06-24T02:21:43 GMT-04:00" name="tearDownClass" finished-at="2023-06-24T02:21:46 GMT-04:00" duration-ms="3285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.CucumberRunner -->
+    </test> <!-- English Language -->
+    <test started-at="2023-06-24T02:21:47 GMT-04:00" name="French Language" finished-at="2023-06-24T02:23:59 GMT-04:00" duration-ms="132692">
+      <class name="runner.CucumberRunnerForFrench">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.CucumberRunnerForFrench@c430e6c]" started-at="2023-06-24T02:21:47 GMT-04:00" name="setUpClass" finished-at="2023-06-24T02:21:47 GMT-04:00" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3982206a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:runner.CucumberRunnerForFrench@c430e6c]" started-at="2023-06-24T02:21:47 GMT-04:00" name="precondition" finished-at="2023-06-24T02:22:09 GMT-04:00" duration-ms="22421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunnerForFrench@c430e6c]" started-at="2023-06-24T02:22:09 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-24T02:22:24 GMT-04:00" duration-ms="15281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Run Create Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Lead Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:runner.CucumberRunnerForFrench@c430e6c]" started-at="2023-06-24T02:22:24 GMT-04:00" name="postcodition" finished-at="2023-06-24T02:22:25 GMT-04:00" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:runner.CucumberRunnerForFrench@c430e6c]" started-at="2023-06-24T02:22:25 GMT-04:00" name="precondition" finished-at="2023-06-24T02:22:40 GMT-04:00" duration-ms="15017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunnerForFrench@c430e6c]" started-at="2023-06-24T02:22:40 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-24T02:23:02 GMT-04:00" duration-ms="22510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Run Edit Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Edit/Update Lead Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:runner.CucumberRunnerForFrench@c430e6c]" started-at="2023-06-24T02:23:02 GMT-04:00" name="postcodition" finished-at="2023-06-24T02:23:03 GMT-04:00" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+        <test-method is-config="true" signature="precondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:runner.CucumberRunnerForFrench@c430e6c]" started-at="2023-06-24T02:23:03 GMT-04:00" name="precondition" finished-at="2023-06-24T02:23:28 GMT-04:00" duration-ms="25025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunnerForFrench@c430e6c]" started-at="2023-06-24T02:23:28 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-24T02:23:54 GMT-04:00" duration-ms="26721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Run Duplicate Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Duplicate Lead Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="postcodition()[pri:0, instance:runner.CucumberRunnerForFrench@c430e6c]" started-at="2023-06-24T02:23:54 GMT-04:00" name="postcodition" finished-at="2023-06-24T02:23:58 GMT-04:00" duration-ms="3531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcodition -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.CucumberRunnerForFrench@c430e6c]" started-at="2023-06-24T02:23:58 GMT-04:00" name="tearDownClass" finished-at="2023-06-24T02:23:59 GMT-04:00" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.CucumberRunnerForFrench -->
+    </test> <!-- French Language -->
+  </suite> <!-- LeadSuite -->
+</testng-results>
